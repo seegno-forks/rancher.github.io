@@ -195,6 +195,17 @@ A multiple line textbox will be shown in the UI.
         on a separate 
         line.
 ```
+<br>
+`credential`
+
+A drop-down of all certificates in the environment will be displayed. 
+
+```
+.catalog
+  questions:
+    - variable:
+      type: certificate
+```
 
 
 
